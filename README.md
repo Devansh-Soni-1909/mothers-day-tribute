@@ -1,6 +1,6 @@
 # 🌸 **Mother's Day Tribute Blog** 🌸
 
-A heartfelt tribute to mothers, celebrating their love and sacrifices with inspiring stories, health tips, and more. This blog project is built with **React.js** (or **Next.js**) and **Tailwind CSS**, designed to honor mothers and showcase frontend development skills with a modern, clean UI.
+A heartfelt tribute to mothers, celebrating their love and sacrifices with inspiring stories, health tips, and more. This blog project is built with **React.js**  and **Tailwind CSS**, designed to honor mothers and showcase frontend development skills with a modern, clean UI.
 
 ---
 
@@ -41,48 +41,49 @@ This project demonstrates skills in **UI replication**, **dynamic routing**, and
 
 ---
 
-## 🛠️ **Setup Instructions** 🛠️
+## 🧰 **Setup Instructions** 🧰
 
-### Prerequisites
-Before you start, make sure you have the following installed:
+### 📦 Prerequisites
+Make sure you have the following installed:
 - **Node.js** (version 14 or higher)
 - **npm** (Node Package Manager)
 
-### Steps to Set Up
+### 🚀 Steps to Run the Project
 
-1. **Clone the Repository**:
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/mothers-day-tribute-blog.git
-Navigate to the Project Directory:
+   ```
 
-bash
-Copy
-Edit
-cd mothers-day-tribute-blog
-Install Dependencies:
+2. **Navigate to the Project Directory**
+   ```bash
+   cd mothers-day-tribute-blog
+   ```
 
-bash
-Copy
-Edit
-npm install
-Start the Development Server:
+3. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-bash
-Copy
-Edit
-npm start
-This will launch the app at http://localhost:3000. Open it in your browser to see the project in action!
+4. **Start the Development Server**
+   ```bash
+   npm start
+   ```
 
-🌐 Live Deployment 🌐
-You can view the live project on:
-Live Deployment Link
+This will launch the app at `http://localhost:3000`. Open it in your browser to see the project in action!
 
-🗂️ Folder Structure 🗂️
-The project follows a clean and structured folder layout for better organization and maintainability.
+---
 
-bash
-Copy
-Edit
+## 🌐 **Live Deployment** 🌐
+
+You can view the live project on:  
+👉 mothers-day-tribute.vercel.app
+
+---
+
+## 🗂️ **Folder Structure** 🗂️
+
+```
 /public
   /assets
     insta1.jpg
@@ -90,6 +91,15 @@ Edit
     insta3.jpg
     insta4.jpg
     insta5.jpg
+    mother-1.jpg
+    mother-2.jpg
+    mother-3.jpg
+    mother-4.jpg
+    mother-5.jpg
+    mother-6.jpg
+    mother-7.jpg
+    mother-8.jpg
+    mother-9.jpg
 /src
   /components
     Carousel.js
@@ -97,47 +107,46 @@ Edit
     ArticleCard.js
     Sidebar.js
   /pages
+    Home.jsx
     index.js
     articles/[id].js
   /data
     articles.json
   /styles
-    tailwind.config.js
-    globals.css
+    
+    index.css
   /utils
     search.js
-🚀 Technologies Used 🚀
-React.js or Next.js: For building dynamic, interactive pages.
+```
 
-Tailwind CSS: For a modern, responsive design system.
+---
 
-React Router (for React.js): To handle dynamic routing.
+## 🚀 **Technologies Used** 🚀
+- **React.js** or **Next.js**: For building dynamic, interactive pages.
+- **Tailwind CSS**: For a modern, responsive design system.
+- **React Router** *(if using React)*: To handle dynamic routing.
+- **JSON**: Used for storing article data locally.
 
-JSON: Used for storing article data locally.
+---
 
-📸 Screenshots 📸
-Home Page
 
-Story Detail Page
 
-🤝 Contributing 🤝
+---
+
+## 🤝 **Contributing** 🤝
+
 Feel free to fork this repository, open issues, and submit pull requests to improve the project!
 
-📝 Credits 📝
-Design: Based on the provided Figma design.
+---
 
-Icons: Icons sourced from Font Awesome.
+## 📝 **Credits** 📝
 
-📝 License 📝
-This project is open-source and available under the MIT License.
+- **Design**: Based on the provided Figma design.
+- **Icons**: Icons sourced from [Font Awesome](https://fontawesome.com/).
 
-markdown
-Copy
-Edit
+---
 
-### Key Highlights:
-- **Emoji Usage**: Emojis are used in headings to make the content more engaging.
-- **Clean Structure**: The sections are clearly divided with headers and easy-to-read bullet points.
-- **Markdown Syntax**: Proper formatting with bullet points, code blocks, and headings for a structured presentation.
+## ⚖️ **License** ⚖️
 
-This should make your `README.md` both informative and aesthetically pleasing! Simply paste this content into your `README.md` file in your project repository.
+This project is open-source and available under the [MIT License](LICENSE).
+
